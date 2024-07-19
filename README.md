@@ -1,0 +1,1 @@
+# basic_crud_python_django

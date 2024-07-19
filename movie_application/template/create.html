@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+{% block content%}
+
+<h1>create</h1>
+
+{% include 'nav_bar.html' %}
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    {{frm.as_p}}
+
+<button>submit</button>
+
+</form>
+
+
+
+{% endblock %}
